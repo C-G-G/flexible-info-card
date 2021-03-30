@@ -11,7 +11,7 @@ html {
 
 body {
   background-color: #ccc;
-  margin: 0 auto;
+  margin: 1.5rem;
 }
 
 h2 {
@@ -25,10 +25,9 @@ h3, h4 {
 
 section li {
   display: flex;
-  /* border: 2px solid red; */
   justify-content: space-between;
   align-items: center;
-  margin: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 li img {
@@ -37,15 +36,12 @@ li img {
 }
 
 li hgroup {
-  margin-left: 1.5rem;
   margin-right: 1.5rem;
   width: 16rem;
-  /* border: 2px solid blue; */
 }
 
 li p {
   width: 24rem;
-  /* border: 2px solid green; */
 }
 
 li a {
@@ -54,6 +50,4 @@ li a {
   margin-left: 1.5rem;
   padding: .5rem 1rem;
   text-decoration: none;
-  /* width: 5rem; */
-  /* border: 2px solid purple; */
 }
